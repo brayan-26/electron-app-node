@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/style/style.css">
+</head>
+<body>
+
+    <!-- creamos el formulario para registrar -->
+    <form id="formRegis" class="form_register">
+        <div class="center_form_register">
+            <div class="container_form_register">
+                
+                <div class="container_p_input_register">
+                    <div class="container_p_register">
+                        <p>Username</p>
+                        <p>Full Name</p>
+                        <p>Birthday</p>
+                        
+                    </div>
+                    <div class="container_input_register">
+                        <input type="text" id="nameRegister"> <br>
+                        <input type="text" id="fullNameRegister"> <br>
+                        <input type="date" id="birthdayRegister" class="input_birthday">
+                    </div>
+                    
+                    <div class="gender_family">
+
+                        <!-- genero -->
+                        <div class="containerGender" id="containerGender">
+                            <input type="radio" value="0" name="genero" checked >
+                            <p>Male</p>
+                            <input type="radio" value="1" name="genero">
+                            <p>Female</p>
+                        </div>
+                        
+                        <div class="number_family">
+                            <p>Number of Family Members</p>
+                            <input type="number" id="numberRegister">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contrasenas_register">
+                    <p>Password</p>
+                    <input type="text" id="passwordResgister">
+                    <p class="Retype_password">Retype Password</p>
+                    <input type="text" id="repitePassword">
+                </div>
+                
+                <!-- ponemos el boton aceptar terminos y condiciones -->
+                <div class="aceptar_Terminos">
+                    <div class="check_register">
+                        <input type="checkbox"  id="aceptarTerminos" disabled>
+                        <p >I agree to the Terms and Conditions</p> 
+                    </div>
+                    <div class="terminos_register">
+                        <a href="#" id="verTerminos" onclick="abrir()">Vew Terms and Conditions</a>
+                    </div>
+                </div>
+            </div>
+                
+            <!-- boton que le permita registrarse -->
+            <div class="container_botones_register">
+                <button id="submit" type="submit" class="submit_register" disabled>Registrar and login</button>
+                
+                <!-- si ya esta registrado se puede logear -->
+                <button><a href="index.html">Return login form</a></button>
+            </div>
+        </div>
+    </form>
+
+    <!-- creamos el container de los términos y condiciones -->
+    <div class="terminos" id="terminos">
+        <p> <strong>Last Updated:</strong> February 10, 2022 <br> <br>
+
+            Thank you for using Stay Seoul! <br>
+            
+            These Terms of Service (“Terms”) are a binding legal agreement between you and Stay Seoul that govern your right to use the websites, applications, and other offerings from Stay Seoul (collectively, the “Stay Seoul Platform”).
+             When used in these Terms, “Stay Seoul,” “we,” “us,” or “our” refers to the Stay Seoul entity set out on Schedule 1 with whom you are contracting.  <br>
+            
+            The Stay Seoul Platform offers an online venue that enables users (“Members”) to publish, offer, search for, and book services. <br>
+             Members who publish and offer services are “Hosts” and Members who search for, book, or use services are “Guests.” Hosts offer accommodations (“Accommodations”), activities, excursions, and events (“Experiences”), and a variety of travel and other services (collectively, “Host Services,” and each Host Service offering, a “Listing”). <br>
+             You must register an account to access and use many features of the Stay Seoul Platform, and must keep your account information accurate.
+            As the provider of the Stay Seoul Platform, Stay Seoul does not own, control, offer or manage any Listings or Host Services. <br>
+            Stay Seoul is not a party to the contracts entered into directly between Hosts and Guests, nor is Stay Seoul a real estate broker, travel agency, or insurer.
+            Stay Seoul is not acting as an agent in any capacity for any Member, except as specified in the Payments Terms of Service (“Payment Terms”). 
+            We maintain other terms and policies that supplement these Terms like our Privacy Policy, which describes our collection and use of personal data, and our Payments Terms, which govern any payment services provided to Members by the Stay Seoul payment entities (collectively "Stay Seoul Payments"). <br>
+            
+            If you are a Host, you are responsible for understanding and complying with all laws, rules, regulations and contracts with third parties that apply to your Host Services.</p>
+        <button><a href="#" id="cerrarTerminos" onclick="cerrar()">Cerrar</a></button>
+    </div>
+    
+
+
+    <!-- hacemos la conexion del (register.js) -->
+    <script src="js/register.js"></script>
+</body>
+</html>

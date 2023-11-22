@@ -1,0 +1,401 @@
+@import 'modul';
+
+
+//index
+.img_logo_index{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form_index{
+    .center_form{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        .container_form_index{
+            border: 3px solid black;
+            width: 645px;
+            display: flex;
+            padding-bottom: 10px;
+            
+            .container_p_input{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0px 0px 0px 35px;
+                .container_p{
+                    text-align: start;
+                    p{
+                        font-size: 20px;
+                        margin: 15px 20px 0px 0px;
+                    }    
+                }
+                .container_input{
+                    input{
+                        @include Input();
+                        margin: 15px 0px 0px 0px;
+                        width: 300px;
+                    }
+                }
+            }
+
+            .container_check{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+                margin: 0px 0px 0px 20px;
+                
+                .checkbox_1{
+                    display: flex;
+                    margin: 8px 0px 15px 0px;
+                    
+                    p{
+                        font-size: 20px;
+                        margin: 0px 0px 0px 0px;
+                    }    
+                }
+                .checkbox_2{
+                    display: flex;
+                    margin: 15px 0px 0px 0px;
+                    p{
+                        font-size: 20px;
+                        margin: 0px 0px 0px 0px;
+                    }  
+                }
+            }
+        }
+    }
+    .container_botones{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px 0px 0px;
+        gap: 15px;
+
+        button{
+            @include Button();
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            img{
+                width: 20px;
+                margin: 0px 5px 0px 0px;
+            }
+        }
+
+        button:hover{
+            transform: scale(1.1);
+            transition: 0.2s;
+        }
+        button:not(:hover){
+            transform: scale(1.0);
+            transition: 0.2s;
+        }
+    }
+    .create_account{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 20px;
+        margin: 10px 0px 0px 0px ;
+        p{
+            margin: 0px 10px 0px 0px ;
+        }
+    }
+}
+
+//register
+.form_register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 510px;
+
+    .center_form_register{
+
+        .container_form_register{
+            border: 3px solid black;
+            width: 750px;
+
+            .container_p_input_register{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0px 0px 0px 0px;
+                .container_p_register{
+                    text-align: start;
+                    p{
+                        font-size: 20px;
+                        margin: 15px 20px 0px 0px;
+                    }    
+                }
+                .container_input_register{
+                    .input_birthday{
+                        @include Input();
+                        margin: 10px 0px 0px 0px;
+                        width: 140px;
+                    }
+                    input{
+                        @include Input();
+                        margin: 10px 0px 0px 0px;
+                        width: 190px;
+                    }
+                }
+
+                .gender_family{
+                    .containerGender{
+                        display: flex;
+                        margin: 0px 0px 0px 0px;
+                        text-align: center;
+                        justify-content: center;
+                        p{
+                            font-size: 20px;
+                            margin: 0px 10px 0px 10px;
+                        }   
+                        input{
+                            margin: 0px 0px 0px 0px;
+                        }
+                    }
+    
+                    .number_family{
+                        display: flex;
+                        text-align: center;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 15px 0px 26px 0px;
+                        p{
+                            font-size: 20px;
+                            margin: 0px 0px 0px 20px;
+                        }   
+                        input{
+                            @include Input();
+                            margin: 0px 0px 0px 10px;
+                            width: 50px;
+                        }
+                    }
+    
+                }
+            }
+
+            .contrasenas_register{
+                display: flex;
+                align-items: center;
+                margin: 0px 0px 0px 40px ;
+                input{
+                    @include Input();
+                    width: 190px;
+                    margin: 10px 0px 0px 0px;
+                }
+                p{
+                    font-size: 20px;
+                    margin: 10px 29px 0px 16px;
+                }
+                .Retype_password{
+                    font-size: 20px;
+                    margin: 10px 10px 0px 10px;
+                }   
+            }
+
+            .aceptar_Terminos{
+                display: flex;
+                text-align: start;
+                margin: 10px 0px 10px 60px;
+                gap: 60px;
+
+                .check_register{
+                    display: flex;
+                    p{
+                        font-size: 20px;
+                        margin: 0px 0px 0px 0px;
+                    }
+
+                }
+                .terminos_register{
+                    a{
+                        font-size: 20px;
+                        margin: 0px 0px 0px 0px;
+                    }
+                }
+            }
+
+        }
+        .container_botones_register{
+            margin: 10px 0px 0px 0px;
+            text-align: end;
+            button{
+                @include Button();
+            }
+            button:hover{
+                transform: scale(1.1);
+                transition: 0.2s;
+            }
+            button:not(:hover){
+                transform: scale(1.0);
+                transition: 0.2s;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                padding: 9px;
+            }
+            .submit_register{
+                margin: 0px 10px 0px 0px;
+            }
+        }
+    }
+}
+
+.terminos{
+    display: none;
+    padding: 10px;
+    position: fixed;
+    overflow: auto;
+    height: 400px;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    p{
+        line-height: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+    }
+    button{
+        @include Button();
+    }
+    button:hover{
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+    button:not(:hover){
+        transform: scale(1.0);
+        transition: 0.2s;
+    }
+}
+
+// inicio
+.container_inicio{
+
+    .img_logo_inicio{
+        width: 120px;
+        height: 120px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .botones_inicio{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 300px;
+        
+        .container_link_ventanas{
+            margin: 0px 0px 0px 0px;
+            button{
+                font-size: 15px;
+                height: 40px;
+                cursor: pointer;
+                height: 35px;
+            }
+            a{
+                margin: 0px 0px 0px 0px ;
+                color: black;
+                text-decoration: none;
+                padding: 5px;
+            }
+            
+        }
+        .container_cerrar_salir{
+            .closedSession_register{
+                margin: 0px 5px 10px 0px ;
+            }
+            button{
+                @include Button();
+                height: 35px;
+            }
+            button:hover{
+                transform: scale(1.1);
+                transition: 0.2s;
+            }
+            button:not(:hover){
+                transform: scale(1.0);
+                transition: 0.2s;
+            }
+        }
+    }
+
+        
+    .center_inicio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .container_traveler{
+            width: 765px;
+            height: 350px;
+            border: 3px solid black;
+            margin-top: -5px;
+            .traveler_user{
+                margin: 10px;
+                text-align: start;
+                input{
+                    @include Input();
+                    width: 600px;
+                    border-radius: 10px;
+                }
+            }
+            .container_tabla_inicio{
+                overflow-y: scroll;
+                overflow-x: hidden;
+                border: 3px solid black;
+                margin: 10px 10px 10px 10px;
+                padding: 10px 10px 10px 10px;
+                height: 270px;
+                width: 720px;
+                margin-left: auto;
+                margin-right: auto;
+                table{
+                    width: 705px;
+                    border-collapse: collapse;
+                    font-size: 18px;
+                    tr{
+                        border: 3px solid black;
+                        th{
+                            border: 3px solid black;
+                            height: 30px;
+                        }
+                        td{
+                            border: 3px solid black;
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .container_owner{
+            display: none;
+            width: 765px;
+            height: 350px;
+            border: 3px solid black;
+            // background-color: yellow;
+            margin-top: -5px;
+        }
+    }
+}

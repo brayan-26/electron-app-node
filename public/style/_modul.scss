@@ -1,0 +1,21 @@
+@mixin Form{
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@mixin Input{
+    height: 25px;
+    border: 3px solid black;
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 0px 0px 0px 10px;
+}
+
+@mixin Button{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 4px 4px 1px black;
+}

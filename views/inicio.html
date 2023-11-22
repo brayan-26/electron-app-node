@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/style/style.css">
+</head>
+<body class="container_inicio">
+    <img src="../public/img/logo.jpg" alt="Logo de la empresa" class="img_logo_inicio">
+
+    
+    <!-- botones de salir de la app y cerrar la session -->
+    <div class="botones_inicio">
+        <div class="container_link_ventanas">
+            <button><a href="#" onclick="abrirTravel()" >I´m Traveler</a></button>
+            <button><a href="#" onclick="abrirOwner()" >I´m Owner / Manager<a></button>
+        </div>
+
+        <div class="container_cerrar_salir">
+            <button id="closedSession" class="closedSession_register">Log out</button>
+            <button id="exitSession">Exit</button>
+        </div>
+    </div>
+    
+    <div class="center_inicio">
+        <!-- vetana del travel -->
+        <div class="container_traveler" id="ventanaTravel">
+          <div class="traveler_user">
+            <input type="search" placeholder="Search destination or Listing Title or Attraction">
+          </div>
+          
+          <div class="container_tabla_inicio">
+            <table id="tablaCuerpo">
+              <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Capacity</th>
+                    <th>Area</th>
+                    <th>Type</th>
+                </tr>
+              </thead>
+
+              
+            </table>
+          </div>
+
+          
+        
+        </div>
+        <!-- ventana del owner -->
+        <div class="container_owner" id="ventanaOwner">
+            <p>ventanaOwner</p>
+        </div>
+        
+    </div>
+    
+
+    <script src="js/inicio.js"></script>
+    
+</body>
+</html>

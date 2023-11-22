@@ -1,0 +1,396 @@
+.img_logo_index {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form_index .center_form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.form_index .center_form .container_form_index {
+  border: 3px solid black;
+  width: 645px;
+  display: flex;
+  padding-bottom: 10px;
+}
+.form_index .center_form .container_form_index .container_p_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 35px;
+}
+.form_index .center_form .container_form_index .container_p_input .container_p {
+  text-align: start;
+}
+.form_index .center_form .container_form_index .container_p_input .container_p p {
+  font-size: 20px;
+  margin: 15px 20px 0px 0px;
+}
+.form_index .center_form .container_form_index .container_p_input .container_input input {
+  height: 25px;
+  border: 3px solid black;
+  border-radius: 3px;
+  font-size: 17px;
+  padding: 0px 0px 0px 10px;
+  margin: 15px 0px 0px 0px;
+  width: 300px;
+}
+.form_index .center_form .container_form_index .container_check {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0px 0px 0px 20px;
+}
+.form_index .center_form .container_form_index .container_check .checkbox_1 {
+  display: flex;
+  margin: 8px 0px 15px 0px;
+}
+.form_index .center_form .container_form_index .container_check .checkbox_1 p {
+  font-size: 20px;
+  margin: 0px 0px 0px 0px;
+}
+.form_index .center_form .container_form_index .container_check .checkbox_2 {
+  display: flex;
+  margin: 15px 0px 0px 0px;
+}
+.form_index .center_form .container_form_index .container_check .checkbox_2 p {
+  font-size: 20px;
+  margin: 0px 0px 0px 0px;
+}
+.form_index .container_botones {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 0px 0px;
+  gap: 15px;
+}
+.form_index .container_botones button {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 4px 4px 1px black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+.form_index .container_botones button img {
+  width: 20px;
+  margin: 0px 5px 0px 0px;
+}
+.form_index .container_botones button:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.form_index .container_botones button:not(:hover) {
+  transform: scale(1);
+  transition: 0.2s;
+}
+.form_index .create_account {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  margin: 10px 0px 0px 0px;
+}
+.form_index .create_account p {
+  margin: 0px 10px 0px 0px;
+}
+
+.form_register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 510px;
+}
+.form_register .center_form_register .container_form_register {
+  border: 3px solid black;
+  width: 750px;
+}
+.form_register .center_form_register .container_form_register .container_p_input_register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+}
+.form_register .center_form_register .container_form_register .container_p_input_register .container_p_register {
+  text-align: start;
+}
+.form_register .center_form_register .container_form_register .container_p_input_register .container_p_register p {
+  font-size: 20px;
+  margin: 15px 20px 0px 0px;
+}
+.form_register .center_form_register .container_form_register .container_p_input_register .container_input_register .input_birthday {
+  height: 25px;
+  border: 3px solid black;
+  border-radius: 3px;
+  font-size: 17px;
+  padding: 0px 0px 0px 10px;
+  margin: 10px 0px 0px 0px;
+  width: 140px;
+}
+.form_register .center_form_register .container_form_register .container_p_input_register .container_input_register input {
+  height: 25px;
+  border: 3px solid black;
+  border-radius: 3px;
+  font-size: 17px;
+  padding: 0px 0px 0px 10px;
+  margin: 10px 0px 0px 0px;
+  width: 190px;
+}
+.form_register .center_form_register .container_form_register .container_p_input_register .gender_family .containerGender {
+  display: flex;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  justify-content: center;
+}
+.form_register .center_form_register .container_form_register .container_p_input_register .gender_family .containerGender p {
+  font-size: 20px;
+  margin: 0px 10px 0px 10px;
+}
+.form_register .center_form_register .container_form_register .container_p_input_register .gender_family .containerGender input {
+  margin: 0px 0px 0px 0px;
+}
+.form_register .center_form_register .container_form_register .container_p_input_register .gender_family .number_family {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0px 26px 0px;
+}
+.form_register .center_form_register .container_form_register .container_p_input_register .gender_family .number_family p {
+  font-size: 20px;
+  margin: 0px 0px 0px 20px;
+}
+.form_register .center_form_register .container_form_register .container_p_input_register .gender_family .number_family input {
+  height: 25px;
+  border: 3px solid black;
+  border-radius: 3px;
+  font-size: 17px;
+  padding: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 10px;
+  width: 50px;
+}
+.form_register .center_form_register .container_form_register .contrasenas_register {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 0px 40px;
+}
+.form_register .center_form_register .container_form_register .contrasenas_register input {
+  height: 25px;
+  border: 3px solid black;
+  border-radius: 3px;
+  font-size: 17px;
+  padding: 0px 0px 0px 10px;
+  width: 190px;
+  margin: 10px 0px 0px 0px;
+}
+.form_register .center_form_register .container_form_register .contrasenas_register p {
+  font-size: 20px;
+  margin: 10px 29px 0px 16px;
+}
+.form_register .center_form_register .container_form_register .contrasenas_register .Retype_password {
+  font-size: 20px;
+  margin: 10px 10px 0px 10px;
+}
+.form_register .center_form_register .container_form_register .aceptar_Terminos {
+  display: flex;
+  text-align: start;
+  margin: 10px 0px 10px 60px;
+  gap: 60px;
+}
+.form_register .center_form_register .container_form_register .aceptar_Terminos .check_register {
+  display: flex;
+}
+.form_register .center_form_register .container_form_register .aceptar_Terminos .check_register p {
+  font-size: 20px;
+  margin: 0px 0px 0px 0px;
+}
+.form_register .center_form_register .container_form_register .aceptar_Terminos .terminos_register a {
+  font-size: 20px;
+  margin: 0px 0px 0px 0px;
+}
+.form_register .center_form_register .container_botones_register {
+  margin: 10px 0px 0px 0px;
+  text-align: end;
+}
+.form_register .center_form_register .container_botones_register button {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 4px 4px 1px black;
+}
+.form_register .center_form_register .container_botones_register button:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.form_register .center_form_register .container_botones_register button:not(:hover) {
+  transform: scale(1);
+  transition: 0.2s;
+}
+.form_register .center_form_register .container_botones_register a {
+  text-decoration: none;
+  color: black;
+  padding: 9px;
+}
+.form_register .center_form_register .container_botones_register .submit_register {
+  margin: 0px 10px 0px 0px;
+}
+
+.terminos {
+  display: none;
+  padding: 10px;
+  position: fixed;
+  overflow: auto;
+  height: 400px;
+  width: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.terminos p {
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.terminos a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.terminos button {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 4px 4px 1px black;
+}
+.terminos button:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.terminos button:not(:hover) {
+  transform: scale(1);
+  transition: 0.2s;
+}
+
+.container_inicio .img_logo_inicio {
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container_inicio .botones_inicio {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
+.container_inicio .botones_inicio .container_link_ventanas {
+  margin: 0px 0px 0px 0px;
+}
+.container_inicio .botones_inicio .container_link_ventanas button {
+  font-size: 15px;
+  height: 40px;
+  cursor: pointer;
+  height: 35px;
+}
+.container_inicio .botones_inicio .container_link_ventanas a {
+  margin: 0px 0px 0px 0px;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+}
+.container_inicio .botones_inicio .container_cerrar_salir .closedSession_register {
+  margin: 0px 5px 10px 0px;
+}
+.container_inicio .botones_inicio .container_cerrar_salir button {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 4px 4px 1px black;
+  height: 35px;
+}
+.container_inicio .botones_inicio .container_cerrar_salir button:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.container_inicio .botones_inicio .container_cerrar_salir button:not(:hover) {
+  transform: scale(1);
+  transition: 0.2s;
+}
+.container_inicio .center_inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container_inicio .center_inicio .container_traveler {
+  width: 765px;
+  height: 350px;
+  border: 3px solid black;
+  margin-top: -5px;
+}
+.container_inicio .center_inicio .container_traveler .traveler_user {
+  margin: 10px;
+  text-align: start;
+}
+.container_inicio .center_inicio .container_traveler .traveler_user input {
+  height: 25px;
+  border: 3px solid black;
+  border-radius: 3px;
+  font-size: 17px;
+  padding: 0px 0px 0px 10px;
+  width: 600px;
+  border-radius: 10px;
+}
+.container_inicio .center_inicio .container_traveler .container_tabla_inicio {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border: 3px solid black;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  height: 270px;
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container_inicio .center_inicio .container_traveler .container_tabla_inicio table {
+  width: 705px;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+.container_inicio .center_inicio .container_traveler .container_tabla_inicio table tr {
+  border: 3px solid black;
+}
+.container_inicio .center_inicio .container_traveler .container_tabla_inicio table tr th {
+  border: 3px solid black;
+  height: 30px;
+}
+.container_inicio .center_inicio .container_traveler .container_tabla_inicio table tr td {
+  border: 3px solid black;
+  height: 30px;
+}
+.container_inicio .center_inicio .container_owner {
+  display: none;
+  width: 765px;
+  height: 350px;
+  border: 3px solid black;
+  margin-top: -5px;
+}
+
+/*# sourceMappingURL=style.css.map */

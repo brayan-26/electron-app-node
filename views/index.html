@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/style/style.css">
+</head>
+<body>
+    <img src="../public/img/logo.jpg" alt="Logo de la empresa" class="img_logo_index">
+
+    <!-- creamos el formulario para logear al usuario -->
+    <form id="form" class="form_index">
+        <div class="center_form">
+
+            <div class="container_form_index">
+                <div class="container_p_input">
+                    <div class="container_p">
+                        <p>Employe</p>
+                        <p>User</p>
+                        <p>Password</p>
+                    </div>
+                    <div class="container_input">
+                        <input type="text" id="employee"> <br>
+                        <input type="text" id="name"> <br>
+                        <input type="password" id="password">
+                    </div>
+                </div>
+                
+                <div class="container_check">
+                    <div >
+                        <div class="checkbox_1">
+                            <input type="checkbox"  id="">
+                            <p for="mostrarPass">Keep me signed in</p>
+                        </div>
+                        
+                        <div class="checkbox_2">
+                            <!-- ponemos el boton que nos permita ver la contraseña -->
+                            <input type="checkbox"  id="mostrarPass">
+                            <p for="mostrarPass">Show Password</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        
+        <div class="container_botones">
+            <!-- boton de logearse -->
+            <button id="submit" type="submit"><img src="../public/img/logo_entrar.png" alt="Logo del login"> Login</button>
+            <!-- boton de registrar  -->
+            <button id="exitSession"> <img src="../public/img/logo_salir.png" alt="Logo cerrar la sesion">Exit</button>
+            <br>
+        </div>
+
+        <div class="create_account">
+            <p>Don´t have an acoount?</p>
+            <a href="register.html" >Create one</a>
+        </div>
+    </form>
+    
+    <!-- hacemos la conexion del (index.js) -->
+    <script src="js/index.js"></script>
+</body>
+</html>
